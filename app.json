@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "token",
+    "slug": "token",
+    "version": "1.0.0",
+    "projectId": "550e8400-e29b-41d4-a716-446655440000",
+    "jsEngine": "hermes",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.token"
+    },
+    "android": {
+      "package": "com.yourcompany.token", 
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "fastRefresh": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "18693d78-720e-4945-a7f0-d61726210e98"
+      }
+    }
+  }
+}
